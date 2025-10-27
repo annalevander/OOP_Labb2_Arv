@@ -2,7 +2,7 @@
 {
     internal class Boat : Vehicle
     {
-        public string Sails{ get; set; } = "Using motor";
+        public string Sails { get; set; } = "Using motor";
 
         public void UseSails()
         {
