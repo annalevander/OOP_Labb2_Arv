@@ -10,15 +10,15 @@
         public int Worth { get; set; }
         public string TypeOfVehicle { get; set; }
 
-        public Vehicle (int HP, int maxSpeed, string brand, string model, int prodYear, int worth, string type)
+        public Vehicle()
         {
-            HorsePower = HP;
-            MaxSpeed = maxSpeed;
-            Brand = brand;
-            Model = model;
-            ProductionYear = prodYear;
-            Worth = worth;
-            TypeOfVehicle = type;
+            HorsePower = 100;
+            MaxSpeed = 180;
+            Brand = "Okänt";
+            Model = "Standard";
+            ProductionYear = 2020;
+            Worth = 100000;
+            TypeOfVehicle = "Okänt fordon";
         }
 
         public void Capacity()
